@@ -1,0 +1,198 @@
+```html id="faq-page-code"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App - FAQ</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* Header */
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Navigation */
+nav{
+    background:#333;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:15px 25px;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    background:#4CAF50;
+}
+
+/* Main Content */
+.container{
+    width:85%;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+h2{
+    color:#4CAF50;
+    margin-bottom:20px;
+}
+
+.question{
+    color:#2e8b57;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Button */
+button{
+    margin-top:30px;
+    padding:15px 30px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#2e8b57;
+}
+
+/* Footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+
+.info{
+    margin-top:15px;
+    line-height:2;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Quiz App</h1>
+<p>Frequently Asked Questions</p>
+</header>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="quiz2.html">About Us</a></li>
+<li><a href="quiz3.html">Features</a></li>
+<li><a href="quiz4.html">FAQ</a></li>
+<li><a href="quiz5.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Frequently Asked Questions</h2>
+
+<h3 class="question">1. Is the Quiz App free?</h3>
+<p>
+Yes. You can enjoy a wide range of quizzes for free. Premium features may also be available for users who want additional content and advanced learning tools.
+</p>
+
+<h3 class="question">2. Do I need to create an account?</h3>
+<p>
+You can browse some quizzes without an account, but creating one allows you to save your progress, compete on leaderboards, and earn rewards.
+</p>
+
+<h3 class="question">3. Can I play with friends?</h3>
+<p>
+Absolutely! Challenge your friends in multiplayer quiz battles and compare scores on the leaderboard.
+</p>
+
+<h3 class="question">4. Are new quizzes added regularly?</h3>
+<p>
+Yes. Our team continuously updates the platform with fresh questions and new quiz categories.
+</p>
+
+<h3 class="question">5. Can I track my performance?</h3>
+<p>
+Yes. The app provides detailed statistics, quiz history, accuracy rates, and progress reports.
+</p>
+
+<h3 class="question">6. Is the app suitable for students?</h3>
+<p>
+Definitely. Students can use the app to prepare for competitive exams, improve subject knowledge, and practice regularly.
+</p>
+
+<button onclick="showFAQMessage()">Learn More</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>Student Information</h2>
+
+<div class="info">
+<p><strong>Name:</strong> Samiksha Pol</p>
+<p><strong>College:</strong> KBP</p>
+<p><strong>Course:</strong> Computer Science</p>
+<p><strong>Date:</strong> 29 June 2026</p>
+</div>
+
+<p style="margin-top:20px;">
+© 2026 Quiz App | All Rights Reserved
+</p>
+
+</footer>
+
+<script>
+function showFAQMessage(){
+    alert("Thank you for visiting the FAQ page! We hope your questions were answered.");
+}
+</script>
+
+</body>
+</html>
+```

@@ -1,0 +1,211 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App - Home</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+/* Header */
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+/* Menu Bar */
+nav{
+    background:#333;
+}
+
+nav ul{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+}
+
+nav ul li{
+    position:relative;
+}
+
+nav ul li a{
+    display:block;
+    padding:15px 25px;
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    background:#4CAF50;
+}
+
+/* Main Section */
+.container{
+    width:85%;
+    margin:30px auto;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+h2{
+    color:#4CAF50;
+    margin-bottom:15px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+ul{
+    margin-top:15px;
+    margin-left:30px;
+    font-size:18px;
+    line-height:2;
+}
+
+/* Button */
+button{
+    margin-top:25px;
+    padding:15px 30px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#2e8b57;
+}
+
+/* Footer */
+footer{
+    margin-top:40px;
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.info{
+    margin-top:15px;
+    line-height:2;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Quiz App</h1>
+<p>Challenge Your Mind with the Ultimate Quiz App</p>
+</header>
+
+<!-- Menu Bar -->
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="quiz2.html">About Us</a></li>
+<li><a href="quiz3.html">Features</a></li>
+<li><a href="quiz4.html">FAQ</a></li>
+<li><a href="quiz5.html">Contact</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Challenge Your Mind with the Ultimate Quiz App</h2>
+
+<p>
+Discover a smarter way to learn, compete, and have fun.
+Our Quiz App offers thousands of exciting quizzes across
+categories like General Knowledge, Science, History,
+Sports, Movies, Technology, Geography, and more.
+</p>
+
+<br>
+
+<p>
+Whether you're preparing for exams, improving your knowledge,
+or simply looking for entertainment, our app makes learning
+interactive and rewarding.
+</p>
+
+<h2 style="margin-top:30px;">Why Choose Our Quiz App?</h2>
+
+<ul>
+<li>Thousands of regularly updated quizzes</li>
+<li>Real-time leaderboard rankings</li>
+<li>Multiple difficulty levels</li>
+<li>Daily challenges and rewards</li>
+<li>Multiplayer quiz battles</li>
+<li>Track your learning progress</li>
+<li>Available anytime, anywhere</li>
+</ul>
+
+<h2 style="margin-top:30px;">Learn While You Play</h2>
+
+<p>
+Turn every quiz into an opportunity to gain knowledge.
+Earn points, unlock achievements, and compete with players worldwide.
+</p>
+
+<button onclick="downloadApp()">
+Download Today
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<h2>Student Information</h2>
+
+<div class="info">
+<p><strong>Name:</strong> Samiksha Pol</p>
+<p><strong>College:</strong> KBP</p>
+<p><strong>Course:</strong> Computer Science</p>
+<p><strong>Date:</strong> 29 June 2026</p>
+</div>
+
+<p style="margin-top:20px;">
+© 2026 Quiz App | All Rights Reserved
+</p>
+
+</footer>
+
+<script>
+function downloadApp(){
+    alert("Thank you for choosing Quiz App!\nYour download will start soon.");
+}
+</script>
+
+</body>
+</html>
+```
